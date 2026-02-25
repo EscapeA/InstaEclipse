@@ -90,25 +90,25 @@ public class DialogUtils {
         // Now building menu manually
 
         // 0 - Developer Options => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.developer_options), () -> showDevOptions(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.developer_options), () -> showDevOptions(context)));
 
         // 1 - Ghost Mode Settings => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.ghost_mode), () -> showGhostOptions(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.ghost_mode), () -> showGhostOptions(context)));
 
         // 2 - Ad/Analytics Block => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.remove_ads), () -> showAdOptions(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.remove_ads), () -> showAdOptions(context)));
 
         // 3 - Distraction-Free Instagram => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.distraction_free), () -> showDistractionOptions(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.distraction_free), () -> showDistractionOptions(context)));
 
         // 4 - Misc Features => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.misc), () -> showMiscOptions(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.misc), () -> showMiscOptions(context)));
 
         // 5 - About => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.about), () -> showAboutDialog(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.about), () -> showAboutDialog(context)));
 
         // 6 - Restart Instagram => OPEN PAGE
-        mainLayout.addView(createClickableSection(context, context.getString(R.string.restart_app), () -> showRestartSection(context)));
+        mainLayout.addView(createClickableSection(context, context.getString(ps.reso.instaeclipse.R.string.restart_app), () -> showRestartSection(context)));
 
         mainLayout.addView(createDivider(context));
 
