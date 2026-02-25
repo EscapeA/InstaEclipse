@@ -74,9 +74,10 @@
     <string name="developer_options">开发者选项</string>
     <string name="ghost_mode">幽灵模式</string>
     <string name="distraction_free">无干扰模式</string>
-    <string name="remove_ads">移除广告</string>
-    <string name="remove_analytics">移除分析</string>
-    <string name="enable_disable_all">启用/禁用所有</string>
+    <string name="remove_ads">移除广告/分析</string>
+<!--     <string name="remove_analytics">移除分析</string>--> 
+    <string name="about">关于</string>
+    <string name="restart_app">重启应用</string>
     <!--  Don't translate!  -->
     <string name="hint" translatable="false">Hint</string>
     <!--  ghost  -->
