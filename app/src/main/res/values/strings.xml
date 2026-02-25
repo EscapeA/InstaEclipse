@@ -69,7 +69,8 @@
     <string name="distraction_free">Distraction Free</string>
     <string name="remove_ads">Remove Ads</string>
     <string name="remove_analytics">Remove Analytics</string>
-
+    <string name="about">about</string>
+    <string name="restart_app">Restart App</string>
     <string name="enable_disable_all">Enable/Disable All</string>
 
     <!-- Don't translate! -->
